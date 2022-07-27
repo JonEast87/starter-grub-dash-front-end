@@ -3,8 +3,7 @@
  * The default values is overridden by the `API_BASE_URL` environment variable.
  */
 const API_BASE_URL =
-	process.env.API_BASE_URL ||
-	'git@github.com:JonEast87/starter-grub-dash-front-end.git'
+	process.env.API_BASE_URL || 'https://jon-eastin-grubdash.herokuapp.com'
 
 /**
  * Defines the default headers for these functions to work with `json-server`
